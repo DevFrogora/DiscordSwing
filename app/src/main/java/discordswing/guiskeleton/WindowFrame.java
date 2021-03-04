@@ -81,4 +81,11 @@ public class WindowFrame implements WindowListener {
     window.pack();
   }
 
+  public int getWidth(){
+      return window.getWidth();
+  }
+  public int getHeight(){
+      return window.getHeight();
+  }
+
 }

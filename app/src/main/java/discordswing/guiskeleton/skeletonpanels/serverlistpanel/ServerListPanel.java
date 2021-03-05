@@ -9,11 +9,12 @@ public class ServerListPanel {
 
 	public JPanel getPanel() {
 		JButton jbO = new JButton("Users");
-		JButton jbl = new JButton("Final dfdsdhsakjdhsakjhdkj");
+		JButton jbl = new JButton("Serverlist");
 		JButton jb2 = new JButton("2021");
 		// JButton jb3 = new JButton("Exam");
 
 		JPanel panel =  new JPanel();
+		//panel.setPreferredSize(new Dimension(5,900));
 		panel.setLayout(new BorderLayout());
 
 		panel.add(BorderLayout.NORTH, jbO);

@@ -26,11 +26,11 @@ public class FourColumnLayout {
 
                 //*************setting the column size of panel********* //
                 int frameWidth= frame.getWidth();
-                this.gridbag.columnWidths = new int[] { frameWidth/(4*2*2), frameWidth/(2*2),
-                                                        frameWidth/(4*2),frameWidth/(4*2)};
-                this.gridbag.rowHeights = new int[] {frame.getHeight()};
-                this.gridbag.columnWeights = new double[] {1, 1};
-                this.gridbag.rowWeights = new double[] {1};
+                // this.gridbag.columnWidths = new int[] { frameWidth/8, frameWidth/6,
+                //                                         frameWidth,frameWidth/6};
+                // this.gridbag.rowHeights = new int[] {frame.getHeight()};
+                // this.gridbag.columnWeights = new double[] {1, 1, 1, 1};
+                // this.gridbag.rowWeights = new double[] {1};
                 //***************end************************************//
 
 				mainContainer.setLayout(this.gridbag);
@@ -65,7 +65,7 @@ public class FourColumnLayout {
 
                 gbc.gridy = 0;
                 gbc.gridx++;
-                gbc.gridwidth = 5;
+                gbc.gridwidth = 2;
                 gbc.gridheight = GridBagConstraints.REMAINDER;
                 gbc.weightx = 1.0;
                 gbc.weighty = 1.0;
@@ -76,7 +76,7 @@ public class FourColumnLayout {
 
                 gbc.gridy = 0;
                 gbc.gridx++;
-                gbc.gridwidth = 2;
+                gbc.gridwidth = 1;
                 gbc.gridheight = GridBagConstraints.REMAINDER;
                 gbc.weightx = 1.0;
                 gbc.weighty = 1.0;

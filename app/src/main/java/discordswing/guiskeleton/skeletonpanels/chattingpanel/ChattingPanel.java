@@ -9,7 +9,7 @@ public class ChattingPanel {
 
 	public JPanel getPanel() {
 		JButton jbO = new JButton("Users");
-		JButton jbl = new JButton("Final dfdsdhsakjdhsakjhdkj");
+		JButton jbl = new JButton("Chatting");
 		JButton jb2 = new JButton("2021");
 		// JButton jb3 = new JButton("Exam");
 

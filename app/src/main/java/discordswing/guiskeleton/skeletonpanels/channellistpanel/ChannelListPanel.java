@@ -9,7 +9,7 @@ public class ChannelListPanel {
 
 	public JPanel getPanel() {
 		JButton jbO = new JButton("Users");
-		JButton jbl = new JButton("Final dfdsdhsakjdhsakjhdkj");
+		JButton jbl = new JButton("ChanelList");
 		JButton jb2 = new JButton("2021");
 		// JButton jb3 = new JButton("Exam");
 

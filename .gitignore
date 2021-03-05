@@ -4,3 +4,10 @@
 
 # Ignore Gradle build output directory
 build
+
+# Ignore eclipse created directory for autocomplete the code 
+.settings
+.project
+app/.classpath
+app/bin
+

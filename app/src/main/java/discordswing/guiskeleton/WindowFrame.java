@@ -7,6 +7,8 @@ import javax.swing.JComponent;
 import javax.swing.ImageIcon;
 import java.awt.Container;
 import javax.swing.JLayeredPane;
+import java.awt.Component;
+
 
 public class WindowFrame implements WindowListener {
   String iconSadBlobPath = "/frameIcon/sadblob.png";
@@ -86,6 +88,17 @@ public class WindowFrame implements WindowListener {
   }
   public int getHeight(){
       return window.getHeight();
+  }
+
+  public void setDefaultCloseOperation(int operation){
+    window.setDefaultCloseOperation(operation);
+  }
+  public void setLocationRelativeTo(Component c){
+    window.setLocationRelativeTo(c);
+
+  }
+  public void setSize(int width, int height){
+    window.setSize(width,height);
   }
 
 }

@@ -50,6 +50,7 @@ public class FourColumnLayout {
 		panel.setPreferredSize(new Dimension(75, 900));
 		panel.setMaximumSize(new Dimension(75, 900));
 		panel.add(lblNewLabel_3);
+        panel.add(new ServerListPanel().getPanel());   ////////////<------ this added can be removed
 		
 		JPanel panel_1 = new JPanel();
 		panel_1.setBackground(Color.PINK);
